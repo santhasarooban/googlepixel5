@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#F8EFBA;
+}
+.container{
+    height:100%;
+    width:60%;
+    left:25%;
+    position:absolute;
+}
+.back{
+    height:16cm;
+    width:8.5cm;
+    background-color:#363837;
+    margin-left:15%;
+    top: 20%;
+    position: absolute;
+    border-radius:35px;
+}
+.camera{
+    height:3cm;
+    width:3cm;
+    border-radius:20px;
+    background-color:#0b0b0a;
+    position:absolute;
+    top:20px;
+    left:20px;
+    border-style:solid;
+    border-width:.4px;
+    border-color: #a9a8a9;
+}
+.o1{
+    height:.6cm;
+    width:.6cm;
+    background-color:#c4beb6;
+    border-radius:50%;
+    position:absolute;
+    top:.4cm;
+    left:40%;
+}
+.o2{
+    height:.4cm;
+    width:.4cm;
+    background-color:#c4beb6;
+    border-radius:50%;
+    position:absolute;
+    top:1.4cm;
+    left:15%;
+}
+.o3{
+    height:.4cm;
+    width:.4cm;
+    background-color:#c4beb6;
+    border-radius:50%;
+    position:absolute;
+    top:1.4cm;
+    right:15%;
+}
+.o4{
+    height:.4cm;
+    width:.4cm;
+    background-color:#c4beb6;
+    border-radius:50%;
+    position:absolute;
+    left:45%;
+    bottom:10%;
+}
+.fingerprint{
+    height: 1.3cm;
+    width:1.3cm;
+    border-width:.3px;
+    border-radius:50%;
+    top:25%;
+    left:45%;
+   border-color:black;
+   border-style:solid;
+    position:absolute;
+}
+.g{
+    height:1cm;
+    width:1cm;
+    position: absolute; 
+    left:48%;
+    top:70%;  
+    font-weight:bold;
+}
+.front{
+    height:17.5cm;
+    width:8.9cm;
+    background-color:black;
+    margin-left:35%;
+    top: 17%;
+    position: absolute;
+    border-radius:35px;
+}
+.bg{
+    height:16.7cm;
+    width: 8.3cm;
+    top:10px;
+    left:9px;
+    position: absolute;
+    padding:3px;
+    border-radius:35px;
+}
+.topspace{
+    width:90%;
+    height:1cm;
+    top:3%;
+    left:5%;
+    position:absolute;
+}
+.frontcamera{
+    width:.55cm;
+    height:.55cm;
+    position:absolute;
+    border-radius:50%;
+    background-color:black;
+    left:8px;
+    top:4px;
+}
+.time{
+    color:white;
+    font-size:11px;
+    left:.9cm;
+    top:7.5px;
+    position:absolute;
+}
+.batt{
+    right:9px;
+    top:.2cm;
+    position:absolute;
+    height:.4cm;
+    width:.4cm;
+}
+.signal{
+    right:25px;
+    top:.2cm;
+    position:absolute;
+    height:.4cm;
+    width:.4cm;
+}
+.wifi{
+    right:43px;
+    top:.2cm;
+    position:absolute;
+    height:.4cm;
+    width:.4cm;
+}
+.g5{
+    color:white;
+    font-size:10px;
+    right:62px;
+    top:8.3px;
+    position:absolute;
+}
+.dateanddeg {
+    font-size:15px;
+    width:100%;
+    color:white;
+    top:13%;
+    position:absolute;
+    left:15%;
+  
+}
+.weather{
+    position:absolute;
+    left:47%;
+}
+.deg{
+    font-size:15px;
+    width:100%;
+    color:white;
+    top:13%;
+    position:absolute;
+    left:54%;
+}
+.googleapps{
+    width:80%;
+    height:1.5cm;
+    position:absolute;
+    bottom:17%;
+    left:4.5%;
+}
+.appcircle{
+    height:1.2cm;
+    width:1.2cm;
+    position:absolute;
+    border-radius:50%;
+    background-color:white;
+}
+.ac1{
+    left:2%;
+}
+.ac2{
+    left:26%;
+}
+.ac3{
+    left:50%;
+}
+.ac4{
+    left:73%;
+}
+.applications{
+    height:1cm;
+    width:1cm;
+    position:absolute;
+}
+.playstore{
+    left:10%;
+    top:9%;
+}
+.gmail{
+    left:10%;
+    top:9%;
+}
+.photos{
+    left:10%;
+    top:9%;
+}
+.maps{
+    left:10%;
+    top:9%;
+}
+.chrome{
+    height:1.35cm;
+    width:1.35cm;
+    position:absolute;
+    left:94%;
+    bottom:1;
+}
+.google{
+    width:80%;
+    height:1cm;
+    border-radius:17px;
+    background-color:#dfeee4;
+    position:absolute;
+    bottom:8%;
+    left:10%;
+}
+.googleicon{
+    height:.7cm;
+    width:.7cm;
+    position:absolute;
+    left:3%;
+    top:6px;
+}
+.googleass{
+    height:.7cm;
+    width:.7cm;
+    position:absolute;
+    right:5%;
+    top:6px;
+}
+.line{
+    width:1.5cm;
+    height:2px;
+    position:absolute;
+    border-radius:5px;
+    bottom:3.8%;
+    left:42.5%;
+    background-color:#aefed5;
+}
